@@ -1,5 +1,22 @@
-# Friday Night Funkin' - Psych Engine
+# Friday Night Funkin' - Psych Engine: Community Version
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+
+## NEW:
+`
+function onCreate()
+      setPropertyFromClass('GameOverSubstate', 'backgroundName', 'menuBGBlue') --Измение фона смерти (сзади бф)
+      setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-died') -- Изменение Анимации смерти
+      setPropertyFromClass('GameOverSubstate', 'getAnimatedObjectFrame', 'logoBumpin') --
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimName',  'idle') -- Анимация 2 (Название)
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimXML', 'logo bumpin') -- Анимация 2 (Название в XML файле анимации)
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectPlayAnim', 'idle') -- Какая анимация будет играть
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectX', 90) -- Ось X для 2 анимации (Любой анимации)
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectY', -190) -- Ось Y для 2 анимации (Любой анимации)
+      setPropertyFromClass('GameOverSubstate', 'characterNameX', 90) -- Ось X для 1 анимации (Анимации смерти)
+      setPropertyFromClass('GameOverSubstate', 'characterNameY', -190) -- Ось Y для 1 анимации (Анимации смерти)
+end
+`
+
 
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
