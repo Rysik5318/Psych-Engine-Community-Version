@@ -2,7 +2,7 @@
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
 ## NEW:
-```yaml
+```lua
 function onCreate()
       setPropertyFromClass('GameOverSubstate', 'backgroundName', 'menuBGBlue') --Измение фона смерти (сзади бф)
       setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-died') -- Изменение Анимации смерти
