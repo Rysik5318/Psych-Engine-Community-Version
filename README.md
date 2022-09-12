@@ -6,6 +6,7 @@
 ## Что есть нового?:
 Здесь будет представлен код и описание для чего он нужен. Понять может даже не шарющий за программирование.
 ```lua
+-- Код на добавление фона при смерти в игре, а так же любой анимации
 function onCreate()
       setPropertyFromClass('GameOverSubstate', 'backgroundName', 'menuBGBlue') --Измение фона смерти (сзади бф)
       setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-holding-gf-died') -- Изменение Анимации смерти
