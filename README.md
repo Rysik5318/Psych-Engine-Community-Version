@@ -5,7 +5,7 @@ Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), 
 ```lua
 function onCreate()
       setPropertyFromClass('GameOverSubstate', 'backgroundName', 'menuBGBlue') --Измение фона смерти (сзади бф)
-      setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-died') -- Изменение Анимации смерти
+      setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-holding-gf-died') -- Изменение Анимации смерти
       setPropertyFromClass('GameOverSubstate', 'getAnimatedObjectFrame', 'logoBumpin') --
       setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimName',  'idle') -- Анимация 2 (Название)
       setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimXML', 'logo bumpin') -- Анимация 2 (Название в XML файле анимации)
