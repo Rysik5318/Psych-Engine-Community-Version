@@ -20,6 +20,11 @@ function onCreate()
       setPropertyFromClass('GameOverSubstate', 'characterNameY', -190) -- Ось Y для 1 анимации (Анимации смерти)
 end
 ```
+
+## Что планируется?
+* Планируется сделать background editor, для этого Я постараюсь. Прогресс: 0/100%
+* Планируется так же сделать своего рода переключатель локализации. Например с Анг на Рус. Прогресс 0/100%
+
 # Дальше просто идёт нудная вставка из Psych Engine.
 
 # Friday Night Funkin' - Psych Engine
