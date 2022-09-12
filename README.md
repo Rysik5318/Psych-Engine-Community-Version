@@ -10,10 +10,10 @@
 function onCreate()
       setPropertyFromClass('GameOverSubstate', 'backgroundName', 'menuBGBlue') --Измение фона смерти (сзади бф)
       setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-holding-gf-died') -- Изменение Анимации смерти
-      setPropertyFromClass('GameOverSubstate', 'getAnimatedObjectFrame', 'logoBumpin') --
-      setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimName',  'idle') -- Анимация 2 (Название)
+      setPropertyFromClass('GameOverSubstate', 'getAnimatedObjectFrame', 'logoBumpin') -- Название Png. (Анимация 2).
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimName',  'idle') -- Название анимации. (Анимация 2).
       setPropertyFromClass('GameOverSubstate', 'animatedObjectAnimXML', 'logo bumpin') -- Анимация 2 (Название в XML файле анимации)
-      setPropertyFromClass('GameOverSubstate', 'animatedObjectPlayAnim', 'idle') -- Какая анимация будет играть
+      setPropertyFromClass('GameOverSubstate', 'animatedObjectPlayAnim', 'idle') -- Какая анимация будет играть.
       setPropertyFromClass('GameOverSubstate', 'animatedObjectX', 90) -- Ось X для 2 анимации (Любой анимации)
       setPropertyFromClass('GameOverSubstate', 'animatedObjectY', -190) -- Ось Y для 2 анимации (Любой анимации)
       setPropertyFromClass('GameOverSubstate', 'characterNameX', 90) -- Ось X для 1 анимации (Анимации смерти)
